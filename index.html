@@ -3,43 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sita Ramam Inspired Wedding</title>
+    <title>Vintage Wedding Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Wedding</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#story">Our Story</a></li>
-                <li><a href="#wedding">Wedding Details</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#rsvp">RSVP</a></li>
-                <li><a href="#travel">Travel Info</a></li>
-            </ul>
-        </nav>
+        <div class="hero">
+            <h1>Sita Ramam</h1>
+            <p>A Journey of Love</p>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to our wedding website! We are glad to invite you to celebrate our special day.</p>
-    </section>
-
     <section id="story">
-        <h2>Our Story</h2>
-        <p>Read about our beautiful journey together.</p>
+        <h2>The Story</h2>
+        <p>Once upon a time in a land filled with magic...</p>
+        <div class="timeline">
+            <h3>Timeline</h3>
+            <ul>
+                <li>Event 1: The First Meeting</li>
+                <li>Event 2: The Engagement</li>
+                <li>Event 3: The Wedding Day</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="wedding">
+    <section id="wedding-details">
         <h2>Wedding Details</h2>
-        <p>Date: 2026-05-15</p>
-        <p>Venue: The Grand Hall</p>
+        <p>Date: 2026-02-22</p>
+        <p>Venue: Grand Hall, City Center</p>
+        <p>Time: 5:00 PM</p>
     </section>
 
     <section id="gallery">
         <h2>Gallery</h2>
-        <p>Pictures from our journey together.</p>
+        <div class="images">
+            <img src="image1.jpg" alt="Wedding Image 1">
+            <img src="image2.jpg" alt="Wedding Image 2">
+            <img src="image3.jpg" alt="Wedding Image 3">
+        </div>
     </section>
 
     <section id="rsvp">
@@ -47,22 +48,19 @@
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-            <label for="attendance">Attending:</label>
-            <select id="attendance" name="attendance">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
             <button type="submit">Submit</button>
         </form>
     </section>
 
     <section id="travel">
-        <h2>Travel Info</h2>
-        <p>Details about accommodations and travel arrangements.</p>
+        <h2>Travel Information</h2>
+        <p>Here are the details for travel arrangements...</p>
     </section>
 
     <footer>
-        <p>© 2026 Our Wedding</p>
+        <p>© 2026 Vintage Wedding. All rights reserved.</p>
     </footer>
 </body>
 </html>
